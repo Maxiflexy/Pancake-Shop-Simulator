@@ -36,8 +36,36 @@ pancakes made, eaten, wasted, and any unmet user orders.
 
 
 ## Technologies Used
-Java 8 (or higher) for core programming
-CompletableFuture for asynchronous processing
-Prerequisites
-Java Development Kit (JDK) 8 or higher installed
-Integrated Development Environment (IDE) configured for Java development (e.g., IntelliJ IDEA, Eclipse)
+* Java 8 (or higher) for core programming
+* CompletableFuture for asynchronous processing
+
+## Prerequisites
+* Java Development Kit (JDK) 8 or higher installed
+* Integrated Development Environment (IDE) configured for Java development
+(e.g., IntelliJ IDEA, Eclipse)
+
+## Setup
+* Clone the repository:
+
+
+      git clone https://github.com/Maxiflexy/Pancake-Shop-Simulator.git
+      cd pancake-simulation
+ 
+* Open the project in your IDE: Open the project folder in your preferred Java IDE.
+
+* Build and run:
+
+  * Navigate to src folder and run either NonConcurrentPancakeSimulation.java 
+  or ConcurrentPancakeSimulation.java.
+  
+## Usage
+  * Both programs will simulate three 30-second intervals.
+  * Each interval outputs:
+    * Starting and ending times.
+    * Number of pancakes made by the shopkeeper.
+    * Number of pancakes eaten by three users.
+    * Whether the shopkeeper was able to meet the needs of the 3 users or not
+    * How many pancakes got wasted, if any.
+    * If the shopkeeper was not able to meet the needs of all the customers, how many pancake
+      orders were not met.
+
