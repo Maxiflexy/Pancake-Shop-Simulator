@@ -12,6 +12,7 @@ public class User {
         return CompletableFuture.supplyAsync(
 
                 () -> random.nextInt(MAX_PANCAKES_EATEN + 1));
+
         // 0 to 5 pancakes
     }
 }
