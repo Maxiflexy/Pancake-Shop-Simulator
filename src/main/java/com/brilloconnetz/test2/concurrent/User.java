@@ -13,6 +13,7 @@ public class User {
 
                 () -> random.nextInt(MAX_PANCAKES_EATEN + 1));
 
+
         // 0 to 5 pancakes
     }
 }
