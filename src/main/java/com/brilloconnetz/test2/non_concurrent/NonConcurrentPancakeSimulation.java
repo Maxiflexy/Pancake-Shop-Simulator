@@ -23,7 +23,7 @@ public class NonConcurrentPancakeSimulation {
             LocalTime slotStartTime = startTime.plusSeconds((long) (slot - 1) * slotDuration);
             LocalTime slotEndTime = slotStartTime.plusSeconds(slotDuration);
 
-            System.out.println("Starting time of the 30 seconds slot: " + slotStartTime.format(formatter));
+            System.out.println("\nStarting time of the 30 seconds slot: " + slotStartTime.format(formatter));
             System.out.println("Ending time of the 30 seconds slot: " + slotEndTime.format(formatter));
 
             int pancakesMade = shop.makePancakes();

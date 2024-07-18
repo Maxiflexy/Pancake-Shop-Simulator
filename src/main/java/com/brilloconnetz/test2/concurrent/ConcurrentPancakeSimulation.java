@@ -59,7 +59,7 @@ public class ConcurrentPancakeSimulation {
         int pancakesWasted = Math.max(pancakesMade, 0);
         boolean needsMet = unmetOrders == 0;
 
-        System.out.println("Number of pancakes made by the shopkeeper: " + (pancakesMade + totalPancakesEaten));
+        System.out.println("\nNumber of pancakes made by the shopkeeper: " + (pancakesMade + totalPancakesEaten));
         System.out.println("Number of pancakes eaten by the 3 users: " + totalPancakesEaten);
         System.out.println("Whether the shopkeeper was able to meet the needs of the 3 users: " + (needsMet ? "Yes" : "No"));
         System.out.println("Number of pancakes wasted: " + pancakesWasted);
