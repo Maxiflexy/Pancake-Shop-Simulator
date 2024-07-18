@@ -19,6 +19,7 @@ public class NonConcurrentPancakeSimulation {
         LocalTime startTime = LocalTime.now();
 
         for (int slot = 1; slot <= numberOfSlots; slot++) {
+
             LocalTime slotStartTime = startTime.plusSeconds((long) (slot - 1) * slotDuration);
             LocalTime slotEndTime = slotStartTime.plusSeconds(slotDuration);
 
