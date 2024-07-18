@@ -8,6 +8,7 @@ public class ConcurrentPancakeShop {
     private final Random random = new Random();
 
     public CompletableFuture<Integer> makePancakes() {
-        return CompletableFuture.supplyAsync(() -> random.nextInt(MAX_PANCAKES_MADE + 1)); // 0 to 12 pancakes
+        return CompletableFuture.supplyAsync(
+                () -> random.nextInt(MAX_PANCAKES_MADE + 1)); // 0 to 12 pancakes
     }
 }
